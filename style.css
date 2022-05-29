@@ -1,0 +1,32 @@
+main {
+    background-color: #f0ddc7;
+    ;
+    text-align: center;
+    height: 300px;
+}
+
+#first-I {
+    height: 50px;
+    font-size: 30px;
+    width: 100px;
+}
+
+.unit {
+    font-size: 40px;
+    text-align: center;
+}
+
+#vol {
+    background-color: #f0ddc7;
+    height: 130px;
+}
+
+#len {
+    background-color: #f0ddc7;
+    height: 130px;
+}
+
+#mas {
+    background-color: #f0ddc7;
+    height: 130px;
+}
