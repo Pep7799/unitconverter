@@ -1,10 +1,11 @@
 main {
-    background-color: #f0ddc7;
-    ;
+    background-color: #9DD6DF;
     text-align: center;
     height: 300px;
 }
-
+h1 {
+    font-size: 25px;
+}
 #first-I {
     height: 50px;
     font-size: 30px;
@@ -12,21 +13,41 @@ main {
 }
 
 .unit {
-    font-size: 40px;
+    font-size: 30px;
     text-align: center;
 }
 
 #vol {
-    background-color: #f0ddc7;
+    
     height: 130px;
 }
 
 #len {
-    background-color: #f0ddc7;
+    
     height: 130px;
 }
 
 #mas {
-    background-color: #f0ddc7;
+   
     height: 130px;
+}
+
+@media only screen and (max-width: 600px) {
+        main {
+            height: 200px;
+        }
+        #first-I {
+            height: 20px;
+            font-size: 10px;
+            width: 50px;
+        }
+        h1 {
+            font-size: 17px;
+        }
+        
+    .unit {
+        font-size: 15px;
+        text-align: center;
+}
+
 }
